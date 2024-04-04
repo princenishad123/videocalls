@@ -5,9 +5,9 @@ const Home = () => {
   const [name, setName] = useState("");
   const [joinCall, setJoinCall] = useState("");
 
-  // const a = "";
+  // const a = "https://videoocalls.netlify.app/video/pRINCE?roomID=45654";
 
-  const joinUrl = joinCall.slice(44);
+  const joinUrl = joinCall.slice(31);
   console.log(joinUrl);
 
   return (
