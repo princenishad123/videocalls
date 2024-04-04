@@ -5,10 +5,10 @@ const Home = () => {
   const [name, setName] = useState("");
   const [joinCall, setJoinCall] = useState("");
 
-  // const a = "http://videoocalls.netlify.app.netlify.app/video/Prince?roomID=45654";
+  // const a = "";
 
-  const joinUrl = joinCall.slice(30);
-  console.log();
+  const joinUrl = joinCall.slice(44);
+  console.log(joinUrl);
 
   return (
     <div className="homePage">
